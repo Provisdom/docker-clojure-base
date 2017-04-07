@@ -1,0 +1,17 @@
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.nrepl-history
+.idea
+*.iml
+.envrc
+_builds
+_cache
+_projects
+_steps
