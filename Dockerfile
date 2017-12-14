@@ -11,6 +11,7 @@ ENV BOOT_LOCAL_REPO /m2
 ENV BOOT_AS_ROOT yes
 ENV BOOT_VERSION 2.7.2
 ENV BOOT_EMIT_TARGET no
+ENV BOOT_CLOJURE_VERSION 1.9.0
 
 # download & install deps, cache REPL and web deps
 RUN /usr/bin/boot web -s doesnt/exist repl -e '(System/exit 0)' && rm -rf target
